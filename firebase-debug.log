@@ -1,0 +1,57 @@
+[debug] [2023-07-12T17:39:07.074Z] ----------------------------------------------------------------------
+[debug] [2023-07-12T17:39:07.077Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-12T17:39:07.078Z] CLI Version:   12.4.3
+[debug] [2023-07-12T17:39:07.079Z] Platform:      win32
+[debug] [2023-07-12T17:39:07.079Z] Node Version:  v18.16.0
+[debug] [2023-07-12T17:39:07.081Z] Time:          Thu Jul 13 2023 00:39:07 GMT+0700 (Indochina Time)
+[debug] [2023-07-12T17:39:07.081Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-12T17:39:07.176Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-12T17:39:07.177Z] > authorizing via signed-in user (pairploy.chp@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\PC
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-07-12T17:39:35.169Z] setProjectAccount(C:\Users\PC, pairploy.chp@gmail.com)
+[info] 
+[info] +  Using account: pairploy.chp@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-12T17:39:35.182Z] Using project from CLI flag: ppnr-b5c8f
+[debug] [2023-07-12T17:39:35.185Z] > refreshing access token with scopes: []
+[debug] [2023-07-12T17:39:35.187Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-12T17:39:35.187Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-12T17:39:35.471Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-12T17:39:35.471Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-12T17:39:35.478Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ppnr-b5c8f [none]
+[debug] [2023-07-12T17:39:36.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ppnr-b5c8f 200
+[debug] [2023-07-12T17:39:36.109Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ppnr-b5c8f {"projectId":"ppnr-b5c8f","projectNumber":"1039029400258","displayName":"ppnr","name":"projects/ppnr-b5c8f","resources":{"hostingSite":"ppnr-b5c8f"},"state":"ACTIVE","etag":"1_dfa41943-e2bd-4107-a58a-b387ac7091ad"}
+[info] i  Using project ppnr-b5c8f (ppnr) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
